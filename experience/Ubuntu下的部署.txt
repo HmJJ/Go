@@ -114,6 +114,10 @@ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","a"]}'
 最后我们要关闭Fabric网络，首先需要运行exit命令退出cli容器。关闭Favric的命令与启动类似，命令为：
 cd ~/go/src/github.com/hyperledger/fabric/examples/e2e_cli./network_setup.sh down
 
+当你无法关闭fabric的时候请看。
+当你运行完docker exec -it cli bash进入CLI之后，你会发现你的hostname改变了，然后就无法使用正常的命令了，也查看不到之前安装过的文件、环境之类的，这个时候需要把该窗口关闭，重新开一个就ok了。
+
+
 整个单节点流程就是这样。
 
 
