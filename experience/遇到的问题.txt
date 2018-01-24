@@ -1,4 +1,5 @@
 unable to resolve host host-10-10-6-29
 这个时候需要去修改/etc/hosts文件，在里面添加一条127.0.0.1  localhost 【hostname】
 
-lrzsz
+安装lrzsz之后就能把本地的文件上传到虚拟机的系统里
+sudo apt-get install lrzsz
