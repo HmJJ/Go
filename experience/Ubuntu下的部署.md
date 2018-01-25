@@ -36,19 +36,6 @@ cd ~
 mkdir go
 校验：$GOPATH    或者    go -version
 
-
-##Git安装
-首先输入git，系统提示我们安装git
-接着输入sudo apt-get install git
-输入root密码，按A一键确定（只有Y的话输入Y）
-等待安装完毕
-输入git测试是否安装成功
-配置用户名和邮箱之后就能使用了
-git config --global user.name "**"
-git config --global user.email "***@***.com"
-
-
-
 ##Docker安装
 我们可以使用阿里提供的镜像，安装也十分方便。通过一下命令来安装docker
 ### step 1: 安装必要的一些系统工具
